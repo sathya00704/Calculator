@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:calculator/buttons.dart';
-import 'package:calculator/home.dart';
+import 'package:calculator/bmidark.dart';
 import 'package:math_expressions/math_expressions.dart';
 
 class DarkMode extends StatefulWidget {
@@ -47,13 +47,28 @@ class _DarkModeState extends State<DarkMode> {
     return Scaffold(
       appBar: new AppBar(
         title: Text(
-            'Simple Calculator',
+            'Calculator',
           style: TextStyle(
             color: Colors.white
           ),
         ),
         backgroundColor: Colors.indigo[900],
         actions: <Widget>[
+          TextButton.icon(
+            icon: Icon(Icons.accessibility_new),
+            label: Text(
+              'BMI',
+              style: TextStyle(
+                  color: Colors.white
+              ),
+            ),
+            onPressed: () {
+              Navigator.push(
+                context,
+                MaterialPageRoute(builder: (context) => BMIDark()),
+              );
+            },
+          ),
           TextButton.icon(
             icon: Icon(Icons.light_mode),
             label: Text('Light mode',

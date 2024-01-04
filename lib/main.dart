@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:calculator/home.dart';
-import 'package:calculator/dark.dart';
+import 'package:calculator/homedark.dart';
 
 void main() {
   runApp(MyApp());
@@ -40,12 +40,7 @@ class _MyAppState extends State<MyApp> {
     return MaterialApp(
       title: 'Your App Title',
       home: showSignIn ? Home(toggleView: toggleView) : DarkMode(toggleView: toggleView),
+      debugShowCheckedModeBanner: false,
     );
-    /*if(showSignIn){
-      return Home(toggleView: toggleView);
-    }
-    else {
-      return DarkMode(toggleView: toggleView);
-    }*/
   }
 }
