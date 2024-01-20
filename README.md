@@ -1,16 +1,6 @@
-# calculator
+# Simple Calculator and BMI Calculator Application
 
-Calculator app
-
-## Getting Started
-
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+- Basic Calculator Operations & Checking BMI of a person
+- Simple UI Design
+- Enabling different themes(Light & Dark)
+- To see the working of the app, click this link: https://drive.google.com/file/d/1s1GLOcZOpf_ifsYiy36q1UBIUOT-yAQJ/view?usp=sharing
